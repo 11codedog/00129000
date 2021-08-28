@@ -18,7 +18,7 @@ bool isShort(const string& w1,const string& w2) {
 bool isThree(string& words) {
 	return words.size() >= 3;
 }
-/*lambda±í´ïÊ½*/
+/*lambdaè¡¨è¾¾å¼*/
 void test1() {
 	int a = 0;
 	[a](int& i) {cout << a + i << " "; };
@@ -85,12 +85,12 @@ int main() {
 		cout << i << "\t";
 	}
 	cout << endl;
-	/*lambda±í´ïÊ½*/
+	/*lambdaè¡¨è¾¾å¼*/
 	[](int& i1, int& i2) {cout << i1 + i2 << " "; };
 	biggies(words3, 3);
 	biggies1(words3, 3);
-	[](int i) {return i < 0 ? -i : i; };//¸Ãlambda·µ»ØÀàĞÍÎªint
-	[](int i)->int {if (i < 0) return -i; else  return i; };//Ö¸¶¨ÁËlambdaµÄ·µ»ØÀàĞÍint
+	[](int i) {return i < 0 ? -i : i; };//è¯¥lambdaè¿”å›ç±»å‹ä¸ºint
+	[](int i)->int {if (i < 0) return -i; else  return i; };//æŒ‡å®šäº†lambdaçš„è¿”å›ç±»å‹int
 	auto val = count_if(words3.begin(), words3.end(),
 		[](string& w) {return w.size() >= 3; });
 	cout << val << endl;
