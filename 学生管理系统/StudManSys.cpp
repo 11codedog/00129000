@@ -3,18 +3,18 @@
 #include"Project1/Project1/\Student.h"
 using namespace std;
 void menu() {
-    cout << "1.ÊäÈëÑ§ÉúÐÅÏ¢." << endl;
-    cout << "2.ÐÞ¸ÄÑ§ÉúÐÅÏ¢." << endl;
-    cout << "3.²é¿´Ñ§ÉúÐÅÏ¢." << endl;
-    cout << "4.É¾³ýÑ§ÉúÐÅÏ¢." << endl;
-    cout << "5.°´³É¼¨²é¿´Ñ§ÉúÐÅÏ¢." << endl;
-    cout << "6.ÍË³ö³ÌÐò." << endl;
+    cout << "1.è¾“å…¥å­¦ç”Ÿä¿¡æ¯." << endl;
+    cout << "2.ä¿®æ”¹å­¦ç”Ÿä¿¡æ¯." << endl;
+    cout << "3.æŸ¥çœ‹å­¦ç”Ÿä¿¡æ¯." << endl;
+    cout << "4.åˆ é™¤å­¦ç”Ÿä¿¡æ¯." << endl;
+    cout << "5.æŒ‰æˆç»©æŸ¥çœ‹å­¦ç”Ÿä¿¡æ¯." << endl;
+    cout << "6.é€€å‡ºç¨‹åº." << endl;
 }
 void sortMenu() {
-    cout << "1.°´ÓïÎÄ³É¼¨²é¿´." << endl;
-    cout << "2.°´ÊýÑ§³É¼¨²é¿´." << endl;
-    cout << "3.°´Ó¢Óï³É¼¨²é¿´." << endl;
-    cout << "4.°´×Ü³É¼¨²é¿´." << endl;
+    cout << "1.æŒ‰è¯­æ–‡æˆç»©æŸ¥çœ‹." << endl;
+    cout << "2.æŒ‰æ•°å­¦æˆç»©æŸ¥çœ‹." << endl;
+    cout << "3.æŒ‰è‹±è¯­æˆç»©æŸ¥çœ‹." << endl;
+    cout << "4.æŒ‰æ€»æˆç»©æŸ¥çœ‹." << endl;
 }
 int main() {
     Student student;
@@ -88,7 +88,7 @@ int main() {
                 menu();
                 break;
             default:
-                cout << "ÇëÊäÈëÓÐÐ§Êý×Ö£¡" << endl;
+                cout << "è¯·è¾“å…¥æœ‰æ•ˆæ•°å­—ï¼" << endl;
                 break;
             }
             break;
@@ -96,7 +96,7 @@ int main() {
             system("pause");
             return 0;
         default:
-            cout << "ÇëÊäÈëÓÐÐ§Êý×Ö£¡" << endl;
+            cout << "è¯·è¾“å…¥æœ‰æ•ˆæ•°å­—ï¼" << endl;
             break;
         }
     }
